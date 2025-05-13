@@ -11,7 +11,6 @@ I will only be doing terminal output projects as GUI is a rather different learn
 ## Checklist
 Here's a list of completed and upcoming projects:
 
-- [ ] Rock Paper Scissors
 - [ ] Casino Number Guessing Game
 - [ ] Calculator for Scientific Operations in C++
 - [ ] Login and Registraton System
