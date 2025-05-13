@@ -5,6 +5,9 @@ This repository is a personal challenge to dive deeper into C++ by building mult
 
 In addition to sharpening my C++ skills, I’ve added an extra challenge: working on a **borrowed Linux Mint OS laptop** instead of my main machine, which I left at another condo. This way, I get to explore both **C++ development** and **Linux environments** simultaneously.
 
+## Limitation
+I will only be doing terminal output projects as GUI is a rather different learning curve.
+
 ## Checklist
 Here's a list of completed and upcoming projects:
 
