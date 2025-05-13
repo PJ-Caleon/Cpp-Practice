@@ -11,11 +11,8 @@ I will only be doing terminal output projects as GUI is a rather different learn
 ## Checklist
 Here's a list of completed and upcoming projects:
 
-- [ ] Casino Number Guessing Game
-- [ ] Calculator for Scientific Operations in C++
-- [ ] Login and Registraton System
-- [ ] Student Database Management System
-- [ ] Etc.
+- [ ] OpenCV with hands that control volume of PC
+- [ ] Godot with C++
 
 ## Why This Project?
 - **C++ Mastery**: Strengthen foundational and advanced concepts.
