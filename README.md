@@ -12,7 +12,6 @@ I will only be doing terminal output projects as GUI is a rather different learn
 Here's a list of completed and upcoming projects:
 
 - [ ] OpenCV with hands that control volume of PC
-- [ ] Decryptor Script
 
 ## Why This Project?
 - **C++ Mastery**: Strengthen foundational and advanced concepts.
