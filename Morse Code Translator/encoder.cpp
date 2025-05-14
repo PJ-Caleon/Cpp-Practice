@@ -2,9 +2,42 @@
 #include <fstream>
 #include <string>
 #include <filesystem>
+#include <unordered_map>
 
 using namespace std;
 namespace fs = std::filesystem;
+
+string letter2Morse(string msg);
+
+string letter2Morse(string msg){
+
+    // Define the Morse code mapping
+    static unordered_map<char, string> morseCode = {
+        {'A', ".-"}, {'B', "-..."}, {'C', "-.-."}, {'D', "-.."}, {'E', "."},
+        {'F', "..-."}, {'G', "--."}, {'H', "...."}, {'I', ".."}, {'J', ".---"},
+        {'K', "-.-"}, {'L', ".-.."}, {'M', "--"}, {'N', "-."}, {'O', "---"},
+        {'P', ".--."}, {'Q', "--.-"}, {'R', ".-."}, {'S', "..."}, {'T', "-"},
+        {'U', "..-"}, {'V', "...-"}, {'W', ".--"}, {'X', "-..-"}, {'Y', "-.--"},
+        {'Z', "--.."}, {' ', "/"}
+    };
+
+    // Convert the message to uppercase
+    for (char &c : msg) {
+        c = toupper(c);
+    }
+    // Initialize the encoded string
+    string encoded = "";
+    // Iterate through each character in the message
+    for (char c : msg) {
+        // Check if the character is in the Morse code mapping
+        if (morseCode.find(c) != morseCode.end()) {
+            // Append the Morse code to the encoded string
+            encoded += morseCode[c] + " ";
+        }
+    }
+
+    return encoded;
+}
 
 int main(){
     // Ask user for the file name
@@ -31,7 +64,8 @@ int main(){
     string line;
     cout << "==== Start of Message ====\n" << endl;
     while (getline(file, line)) {
-        cout << line << endl;
+        string morseCode = letter2Morse(line);
+        cout << morseCode << endl;
     }
     // Close the file
     file.close();
