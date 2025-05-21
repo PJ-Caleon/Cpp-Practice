@@ -7,13 +7,3 @@ In addition to sharpening my C++ skills, I’ve added an extra challenge: workin
 
 ## Limitation
 I will only be doing terminal output projects as GUI is a rather different learning curve.
-
-## Checklist
-Here's a list of completed and upcoming projects:
-
-- [ ] OpenCV with hands that control volume of PC
-
-## Why This Project?
-- **C++ Mastery**: Strengthen foundational and advanced concepts.
-- **Linux Experience**: Get comfortable with a Linux-based development environment.
-- **Consistency**: Push myself to complete as many projects as possible within the available timeframe.
